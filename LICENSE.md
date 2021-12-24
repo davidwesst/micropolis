@@ -1,11 +1,12 @@
-Micropolis GPL License Notice
+# Micropolis GPL License Notice
+
 Micropolis, Unix Version. This game was released for the Unix platform in or about 1990 and has been modified for inclusion in the One Laptop Per Child program. Copyright (C) 1989 - 2007 Electronic Arts Inc. If you need assistance with this program, you may contact:
 
 http://wiki.laptop.org/go/Micropolis or email micropolis@laptop.org.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see .
 
-ADDITIONAL TERMS per GNU GPL Section 7
+## ADDITIONAL TERMS per GNU GPL Section 7
 No trademark or publicity rights are granted. This license does NOT give you any right, title or interest in the trademark SimCity or any other Electronic Arts trademark. You may not distribute any modification of this program using the trademark SimCity or claim any affliation or association with Electronic Arts Inc. or its employees.
 
 Any propagation or conveyance of this program must include this copyright notice and these terms.
