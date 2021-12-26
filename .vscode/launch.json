@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/res/sim",
+            "program": "${workspaceFolder}/src/sim/sim",
             "args": ["$*"],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
