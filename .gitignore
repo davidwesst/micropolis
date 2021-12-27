@@ -1,0 +1,62 @@
+# Project-Generated files
+# These files can be created by using the `make all` and `make install` commands from the /src directory
+res/sim
+src/sim/sim
+src/tcl/libtcl.a
+src/tclx/libtcl.a
+src/tclx/libtk.a
+src/tclx/ossupp/made.tmp
+src/tclx/runtcl
+src/tclx/runwish
+src/tclx/src/made.tmp
+src/tclx/src/tclxgdat.c
+src/tclx/tcl
+src/tclx/tcldef
+src/tclx/tcllib/tcl.tlb
+src/tclx/tcllib/tk.tcl
+src/tclx/tcllib/wishx.tcl
+src/tclx/tclsrc/made.tmp
+src/tclx/tkucbsrc/made.tmp
+src/tclx/tkucbsrc/main.c
+src/tclx/tkucbsrc/tkevent.c
+src/tclx/ucbsrc/made.tmp
+src/tclx/ucbsrc/tclbasic.c
+src/tclx/ucbsrc/tclexpr.c
+src/tclx/wish
+src/tk/libtk.a
+src/tk/wish
+
+# C++ .gitignore (Reference: https://github.com/github/gitignore/blob/main/C++.gitignore)
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+

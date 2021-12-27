@@ -1,0 +1,80 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Rebuild (Make)",
+            "type": "shell",
+            "command": "make all",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "dependsOn": [
+                "Clean (Make)"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Build (Make)",
+            "type": "shell",
+            "command": "make all",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "label": "Clean (Make)",
+            "type": "shell",
+            "command": "make clean",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "label": "Run",
+            "type": "shell",
+            "command": "./src/sim/sim",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "args": [
+                "$*"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "SIMHOME": "${workspaceFolder}"
+                }
+            },
+            "dependsOn": [
+                "Build (Make)",
+                "Install (Make)"
+            ],
+            "dependsOrder": "sequence"
+        },
+        {
+            "label": "Install (Make)",
+            "type": "shell",
+            "command": "make install",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            }
+        }
+    ]
+}
